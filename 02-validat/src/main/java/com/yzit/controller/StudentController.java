@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.yzit.entity.Student;
 
 @RestController
-public class StudentController {
+public class StudentController {  
 
 	@PostMapping("/stu")
 	public String add(@RequestBody @Valid Student stu,BindingResult result) {
